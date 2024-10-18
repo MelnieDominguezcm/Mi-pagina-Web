@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(file:///C:/Users/Sebastian/Desktop/TRABAJO%20FINAL-LIBRON/IMAGENES/cc0e57d637b23868de1aa8374726fa9c.jpg);
+}
+
+.libro {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #79031d;
+}
+
+h2 {
+    color: #020202;
+}
+
+h3 {
+    color: #79031d;
+}
+
+p {
+    line-height: 1.6;
+}

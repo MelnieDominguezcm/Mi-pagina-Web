@@ -1,0 +1,299 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*ENCABEZADO*/
+header {
+    background: #030303 ;
+    color: #fdfbfc;
+    padding: 1em;
+    text-align: center;
+    background-image: url('IMAGENES/cc0e57d637b23868de1aa8374726fa9c.jpg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*MENU*/
+.menu {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #edb518;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .menu a:hover {
+    background-color: #0e0d0d;
+  }
+  
+  .menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #edb518;
+    padding: 10px;
+  }
+  
+  .menu li:hover ul {
+    display: block;
+  }
+  
+  .menu ul ul li {
+    margin-bottom: 10px;
+  }
+  
+  .menu ul ul a {
+    font-size: 14px;
+  }
+
+  .menu ul li ul li a {
+    color: #fdfbfc;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+  /*SECCION 1-MODERNOS*//*SECCION 2-CLASICOS*/
+  .galeria-libros-modernos {
+    background-color: #79031d;
+    padding: 95px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .galeria-libros-clasicos {
+    background-color: #edb518;
+    padding: 95px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .libro {
+    margin: 20px;
+    width: 200px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .libro img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .libro h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .libro h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .libro p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  /*SECCION 3- LIBROS MAS DESTACADOS*/
+ .galeria-libros-destacados {
+    background-color: #fff9f9;
+    padding: 95px;
+    margin: 40px auto;
+    box-shadow: 0 0 10px rgba(7, 7, 7, 0.1);
+    color: #000000;
+  }
+  .contenedor-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #faf9f9;
+  }
+  
+  .libro {
+    margin: 20px;
+    width: 200px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .libro img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+
+ }
+  
+ /*CONTACTO*/
+ #contacto {
+	background-color: #000000;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin: 40px auto;
+}
+
+#contacto h2 {
+	margin-top: 0;
+}
+
+#contacto label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+#contacto input, #contacto textarea {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+  
+}
+
+#contacto textarea {
+	height: 100px;
+ 
+}
+
+#contacto button {
+	background-color: #79031d;
+	color: #fff;
+	padding: 20px 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  position: relative;
+}
+
+#contacto button:hover {
+	background-color: #79031d;
+  
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+  /*PIE DE PAGINA*/
+  footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contenedor-footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contenedor-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contenedor-footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .contenedor-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor-footer a:hover {
+    color: #ccc;
+  }
+
+  /*REDES SOCIALES*/
+  .redes-sociales {
+    text-align: center; /* Centra el texto */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+.redes-sociales h2 {
+    font-size: 1.5em; /* Tamaño de fuente del encabezado */
+    margin-bottom: 10px; /* Espacio debajo del encabezado */
+}
+
+.redes-sociales ul {
+    list-style: none; /* Elimina las viñetas de la lista */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+.redes-sociales li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 15px; /* Espacio entre los íconos */
+}
+
+.redes-sociales a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #3498db; /* Color de los enlaces */
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+
+
+  
+  
+
+
+
+
+
+  
